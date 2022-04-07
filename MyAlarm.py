@@ -1,4 +1,4 @@
-import datetime
+import datetime 
 import winsound # pip install PlaySound
 
 def alarm(Timing):
@@ -23,4 +23,4 @@ def alarm(Timing):
                 break
 
 if __name__ == '__main__':
-    alarm('2:00 PM')
+    alarm('2:00 PM')  # Here you can set your alarm
