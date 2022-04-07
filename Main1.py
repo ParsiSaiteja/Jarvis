@@ -1,5 +1,5 @@
-import wolframalpha
-import pyttsx3
+import wolframalpha     # BY USING WOLFRAMALPHA WE CAN CHECK THE TEMPERATURE, WE CAN CALCULATE AND CHECK THE APIID
+import pyttsx3          # IT IS USED TO CONVERT THE TEXT TO SPEECH
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
