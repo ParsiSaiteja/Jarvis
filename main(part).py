@@ -63,8 +63,8 @@ def sendEmail(to , content):
     server = smtplib.SMTP('smtp.gmail.com' , 587)
     server.ehlo()
     server.starttls()
-    server.login('parsisaiteja9@gmail.com' , 'Saiteja@96')
-    server.sendmail('parsisaiteja9@gmail.com' , to , content)
+    server.login('yourmail id' , 'password')
+    server.sendmail('sendermail id' , to , content)
     server.close()
 
 
@@ -194,7 +194,7 @@ def TaskExecution():
 
         # It plays a song in YouTube
         elif "play" in command:
-            #speak("which song shall i play")
+            #speak("which song shall i play")  #WE CAN USE THIS CASE WHILE THE SYSTEM HAS GIVEN THE RESPONSE
             #song = take_command().lower()
             song = command.replace("play","")
             speak("playing song in youtube" + song)
