@@ -1,12 +1,12 @@
 import winsound                        
-import instaloader                     # It downloads public and private profiles, hashtags, user stories, feeds and saved media
-import pyttsx3                         # It is used to convert text to speech
-import pywhatkit                       # It is used to send a message to whatsapp group or contact
-import pyaudio                         # It is used to control the audio and it is the cross-platform audio input/output stream library.
-import requests                        
-import speech_recognition as sr
-import datetime
-import os
+import instaloader                     # It DOWNLOADS PUBLIC AND PRIVATE PROFILES, HASHTAGS, USER STORIES, FEEDS AND SAVED MEDIA.
+import pyttsx3                         # It IS USED TO CONVERT TEXT TO SPEECH
+import pywhatkit                       # IT IS USED TO SEND A MESSAGE TO WHATSAPP GROUP OR CONTACT
+import pyaudio                         # IT IS USED TO SUPPORT THE AUDIO. PYAUDIO IS ONLY SUPPORTED ON PYTHON 3.6 VERSION.
+import requests                        # IT IS USED TO SEND AN HTTP REQUEST
+import speech_recognition as sr        # IT IS USED TO RECOGNISE THE SPEECH
+import datetime                        # IT IS USED TO SET THE DATE AND TIME
+import os                              
 import cv2
 import random
 import webbrowser
