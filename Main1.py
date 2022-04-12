@@ -64,6 +64,7 @@ def temp(query):
         answer1 = wolfRam(var2)
         speak(f"{var2} is {answer1}")
 
+# We can also use this process to check the temperature        
 #temp('temperature london')
 
         #elif "temp" in command:
