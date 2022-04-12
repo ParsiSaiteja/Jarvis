@@ -1,9 +1,9 @@
-import winsound
-import instaloader
-import pyttsx3
-import pywhatkit
-import pyaudio
-import requests
+import winsound                        
+import instaloader                     # It downloads public and private profiles, hashtags, user stories, feeds and saved media
+import pyttsx3                         # It is used to convert text to speech
+import pywhatkit                       # It is used to send a message to whatsapp group or contact
+import pyaudio                         # It is used to control the audio and it is the cross-platform audio input/output stream library.
+import requests                        
 import speech_recognition as sr
 import datetime
 import os
@@ -16,7 +16,6 @@ import smtplib
 import sys
 import time
 import instadownloader
-import requests
 from bs4 import BeautifulSoup
 import time
 import datetime
